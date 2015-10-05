@@ -8,6 +8,8 @@ Design Patterns: https://drive.google.com/open?id=0B29M3sfdctitdkdFU2duZk10N0U
 Algorithms: https://drive.google.com/open?id=0B29M3sfdctitYVFycEZjbHNqR1k
 
 
+#Домашние задания
+
 1) Матрица, рисующая крест, заполняя остальное нулями
 
 2) Примеры наследования (8 штук)
