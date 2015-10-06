@@ -32,5 +32,5 @@ Algorithms: https://drive.google.com/open?id=0B29M3sfdctitYVFycEZjbHNqR1k
 
 11) (05.10.2015) сделать копию MyList в виде bounded list с обработкой Exceptions
 
-12) сделать класс Copy, в нём статический метод deepCopy(), в котором делать глубокую копию с помощью сериализации.
+12) сделать класс Copy, в нём статический метод public Object deepCopy(Object o), в котором делать глубокую копию передаваемого объекта с помощью сериализации/десериализации  ByteArray*Stream.
 если объект не сериализуем, вернуть null
