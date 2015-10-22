@@ -7,6 +7,7 @@ Design Patterns: https://drive.google.com/open?id=0B29M3sfdctitdkdFU2duZk10N0U
 
 Algorithms: https://drive.google.com/open?id=0B29M3sfdctitYVFycEZjbHNqR1k
 
+SQL: https://drive.google.com/open?id=0B29M3sfdctitfm9OWDlDUUxMbm5rT21zMmJvdkstaTZaNnlZXzV5c0xZNXBLMS11R2J5NGc
 
 #Домашние задания
 
@@ -34,3 +35,13 @@ Algorithms: https://drive.google.com/open?id=0B29M3sfdctitYVFycEZjbHNqR1k
 
 12) сделать класс Copy, в нём статический метод public Object deepCopy(Object o), в котором делать глубокую копию передаваемого объекта с помощью сериализации/десериализации  ByteArray*Stream.
 если объект не сериализуем, вернуть null
+
+13) HomeWork: распараллелить генерацию матрицы на 10 потоков и замерить время
+
+14) Проблема пяти обедающих философов. круглый стол, сосед слева-справа, у каждого одна тарелка, справа и слева от тарелки лежат палочки. Взял их. Поел. Спит. Проголодался, еще раз поел, положил. Философ - поток, палочки - ресурсы(объекты). 10 ест,  20 секунд отдыхает. Задача: Сделать так, чтобы философы не умерли с голоду
+
+15) Вариант блокирующей очереди, ограниченный по размеру: метод take посылает сигнал, что очередь стала неполной. Использовать synchronized и wait/notify.  
+
+16) Cвой ReadWriteLock на основе Lock 
+
+17) Программа: ввод с клавиатуры (scanner, обработка пробелов), соединение в БД: члены семьи, вводим имя, год рождения, рост, вес (через пробелы). В конце вывести таблицу на экран. Использовать PreparedStatement.
