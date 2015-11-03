@@ -1,5 +1,9 @@
 package com.epam.chat.server;
 
+import java.util.List;
+
+import javax.servlet.ServletException;
+
 import com.epam.chat.client.ChatService;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
@@ -10,8 +14,18 @@ import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 public class ChatServiceImpl extends RemoteServiceServlet
 		implements ChatService {
 
-	public void sendMessage(long uuid, String input) throws IllegalArgumentException {
-		System.out.println(uuid);
+	private Chat chat = new Chat();
+
+	@Override
+	public void init() throws ServletException {
+		super.init();
+		new Thread(chat).start();
+	}
+	
+	@Override
+	public List<String> sendMessage(long uuid, String message) throws IllegalArgumentException {
+		List<String> responds = chat.process(uuid, message);
+		return responds;
 	}
 
 	/**

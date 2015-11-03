@@ -1,6 +1,6 @@
 package com.epam.chat.client;
 
-import java.util.UUID;
+import java.util.List;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
@@ -10,5 +10,5 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
  */
 @RemoteServiceRelativePath("chat")
 public interface ChatService extends RemoteService {
-	void sendMessage(long uuid, String message) throws IllegalArgumentException;
+	List<String> sendMessage(long uuid, String message) throws IllegalArgumentException;
 }
