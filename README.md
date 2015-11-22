@@ -1,3 +1,6 @@
+### Форма для регистрации на защиту проекта:
+https://docs.google.com/spreadsheets/d/1oBQli95kqmEzs7KOu6aKS060nTFgn8jhonZoTzR2jMw/edit?usp=sharing
+
 Учебный материал: https://drive.google.com/folderview?id=0B29M3sfdctitU1BGeXozRTV3dUU&usp=sharing
 
 
